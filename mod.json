@@ -1,0 +1,74 @@
+{
+  "Groups": [
+    {
+      "Name": "Main",
+      "DisplayName": "Concept Werehog Designs",
+      "Elements": [
+        {
+          "Name": "IncludeDir1",
+          "DisplayName": "Design",
+          "Description": [
+            "Select which design to use."
+          ],
+          "Type": "Design",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": ".\\CWD\\Flames\\"
+        },
+        {
+          "Name": "IncludeDir2",
+          "DisplayName": "Alternative Selected Design",
+          "Description": [
+            "Select whether to use the alternative design for your selected design."
+          ],
+          "Type": "Alternative",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": ".\\CWD\\Dummy\\"
+        }
+      ]
+    }
+  ],
+  "Enums": {
+    "Design": [
+      {
+        "DisplayName": "Chained",
+        "Value": ".\\CWD\\Chained\\",
+        "Description": [
+          "Use the Chained design."
+        ]
+      },
+      {
+        "DisplayName": "Dragon",
+        "Value": ".\\CWD\\Dragon\\",
+        "Description": [
+          "Use the Dragon design."
+        ]
+      },
+      {
+        "DisplayName": "Flames",
+        "Value": ".\\CWD\\Flames\\",
+        "Description": [
+          "Use the Flames design."
+        ]
+      }
+    ],
+    "Alternative": [
+      {
+        "DisplayName": "Enabled",
+        "Value": ".\\CWD\\Alternative\\",
+        "Description": [
+          "Enable the Alternative designs."
+        ]
+      },
+      {
+        "DisplayName": "Disabled",
+        "Value": ".\\CWD\\Dummy\\",
+        "Description": [
+          "Disable the Alternative designs."
+        ]
+      }
+    ]
+  },
+    "IniFile": "mod.ini"
+  }
