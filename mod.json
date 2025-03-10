@@ -2,70 +2,67 @@
   "Groups": [
     {
       "Name": "Main",
-      "DisplayName": "Concept Werehog Designs",
+      "DisplayName": "Character Swapping Framework",
       "Elements": [
         {
-          "Name": "IncludeDir1",
-          "DisplayName": "Design",
+          "Name": "IncludeDir3",
+          "DisplayName": "Game Version",
           "Description": [
-            "Select which design to use."
+            "Specify which game version you are using.",
+            "",
+            "If you have the DLC, keep this as is (1.0.2), if you don't have the DLC, use 1.0."
           ],
-          "Type": "Design",
+          "Type": "Version",
           "MinValue": null,
           "MaxValue": null,
-          "DefaultValue": ".\\CWD\\Flames\\"
+          "DefaultValue": "./CSFCore/1.0.2/"
         },
         {
-          "Name": "IncludeDir2",
-          "DisplayName": "Alternative Selected Design",
+          "Name": "IncludeDir4",
+          "DisplayName": "Voice Language",
           "Description": [
-            "Select whether to use the alternative design for your selected design."
+            "Choose the default Sonic/Werehog voice you wish to use.",
+            "",
+            "Doesn't affect characters with custom voices."
           ],
-          "Type": "Alternative",
+          "Type": "Voices",
           "MinValue": null,
           "MaxValue": null,
-          "DefaultValue": ".\\CWD\\Dummy\\"
+          "DefaultValue": "./CSFCore/Voices/English/"
         }
       ]
     }
   ],
   "Enums": {
-    "Design": [
+    "Version": [
       {
-        "DisplayName": "Chained",
-        "Value": ".\\CWD\\Chained\\",
+        "DisplayName": "1.0",
+        "Value": "./CSFCore/1.0/",
         "Description": [
-          "Use the Chained design."
+          "Use this if you don't 'have the DLC installed."
         ]
       },
       {
-        "DisplayName": "Dragon",
-        "Value": ".\\CWD\\Dragon\\",
+        "DisplayName": "1.0.2",
+        "Value": "./CSFCore/1.0.2/",
         "Description": [
-          "Use the Dragon design."
-        ]
-      },
-      {
-        "DisplayName": "Flames",
-        "Value": ".\\CWD\\Flames\\",
-        "Description": [
-          "Use the Flames design."
+          "Use this if you have the DLC installed."
         ]
       }
     ],
-    "Alternative": [
+    "Voices": [
       {
-        "DisplayName": "Enabled",
-        "Value": ".\\CWD\\Alternative\\",
+        "DisplayName": "English",
+        "Value": "./CSFCore/Voices/English/",
         "Description": [
-          "Enable the Alternative designs."
+          "English voice."
         ]
       },
       {
-        "DisplayName": "Disabled",
-        "Value": ".\\CWD\\Dummy\\",
+        "DisplayName": "Japanese",
+        "Value": "./CSFCore/Voices/Japanese/",
         "Description": [
-          "Disable the Alternative designs."
+          "Japanese voice."
         ]
       }
     ]
