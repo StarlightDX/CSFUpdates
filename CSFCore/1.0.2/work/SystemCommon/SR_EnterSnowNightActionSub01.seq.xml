@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MicroSequence>
+  <SequenceUnit>
+    <type>SetFlag</type>
+    <param>
+      <FlagName>iFlag_LoadingDisplayType</FlagName>
+      <FlagValue>3</FlagValue>
+    </param>
+  </SequenceUnit>
+  <SequenceUnit>
+    <type>ChangeStage</type>
+    <param>
+      <StageType>Action</StageType>
+      <CountryName>Snow</CountryName>
+      <Switch>
+	  <Case flag="iFlag_NightCharacter" operation="E" value="1">
+		<ArchiveName>Sub_EvilCharacter01_Snow1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActN_SubSnow_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case> 
+	  <Case flag="iFlag_NightCharacter" operation="E" value="2">
+		<ArchiveName>Sub_EvilCharacter02_Snow1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActN_SubSnow_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_NightCharacter" operation="E" value="3">
+		<ArchiveName>Sub_EvilCharacter03_Snow1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActN_SubSnow_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_NightCharacter" operation="E" value="4">
+		<ArchiveName>Sub_EvilCharacter04_Snow1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActN_SubSnow_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_NightCharacter" operation="E" value="5">
+		<ArchiveName>Sub_EvilCharacter05_Snow1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActN_SubSnow_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_NightCharacter" operation="E" value="7">
+		<ArchiveName>Sub_EvilCharacter07_Snow1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActN_SubSnow_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_NightCharacter" operation="E" value="8">
+		<ArchiveName>Sub_EvilCharacter08_Snow1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActN_SubSnow_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_NightCharacter" operation="E" value="9">
+		<ArchiveName>Sub_EvilCharacter09_Snow1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActN_SubSnow_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_NightCharacter" operation="E" value="11">
+		<ArchiveName>Sub_EvilCharacter11_Snow1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActN_SubSnow_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case> 
+	  <Case flag="iFlag_NightCharacter" operation="E" value="12">
+		<ArchiveName>Sub_EvilCharacter12_Snow1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActN_SubSnow_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_NightCharacter" operation="E" value="13">
+		<ArchiveName>Sub_EvilCharacter13_Snow1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActN_SubSnow_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_NightCharacter" operation="E" value="14">
+		<ArchiveName>Sub_EvilCharacter14_Snow1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActN_SubSnow_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_NightCharacter" operation="E" value="15">
+		<ArchiveName>Sub_EvilCharacter15_Snow1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActN_SubSnow_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_NightCharacter" operation="E" value="17">
+		<ArchiveName>Sub_EvilCharacter17_Snow1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActN_SubSnow_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_NightCharacter" operation="E" value="18">
+		<ArchiveName>Sub_EvilCharacter18_Snow1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActN_SubSnow_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_NightCharacter" operation="E" value="19">
+		<ArchiveName>Sub_EvilCharacter19_Snow1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActN_SubSnow_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_NightCharacter" operation="E" value="21">
+		<ArchiveName>Sub_EvilCharacter21_Snow1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActN_SubSnow_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case> 
+	  <Case flag="iFlag_NightCharacter" operation="E" value="22">
+		<ArchiveName>Sub_EvilCharacter22_Snow1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActN_SubSnow_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_NightCharacter" operation="E" value="23">
+		<ArchiveName>Sub_EvilCharacter23_Snow1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActN_SubSnow_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_NightCharacter" operation="E" value="24">
+		<ArchiveName>Sub_EvilCharacter24_Snow1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActN_SubSnow_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_NightCharacter" operation="E" value="25">
+		<ArchiveName>Sub_EvilCharacter25_Snow1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActN_SubSnow_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_NightCharacter" operation="E" value="27">
+		<ArchiveName>Sub_EvilCharacter27_Snow1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActN_SubSnow_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_NightCharacter" operation="E" value="28">
+		<ArchiveName>Sub_EvilCharacter28_Snow1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActN_SubSnow_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_NightCharacter" operation="E" value="29">
+		<ArchiveName>Sub_EvilCharacter29_Snow1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActN_SubSnow_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Default>
+		<ArchiveName>ActN_SubSnow_01</ArchiveName>
+	  </Default>
+	</Switch>
+      <SettingName>Stage</SettingName>
+      <IsEvil>true</IsEvil>
+      <LoadingResourceID>SN</LoadingResourceID>
+      <!-- ここからはスコア情報 -->
+      <RankTable>
+        <S>200000</S>
+        <A>150000</A>
+        <B>100000</B>
+        <C>75000</C>
+        <D>50000</D>
+        <E>0</E>
+      </RankTable>
+      <BaseTime>1200</BaseTime>
+      <TimeBonusEfficient>150</TimeBonusEfficient>
+      <!-- チェックポイント数が3より小さい場合のみ意味を成します -->
+      <!--<CheckPointNum>3</CheckPointNum>-->
+      <!-- 何も書かなければ全てが有効。書いたら書いたものだけが有効-->
+      <!--
+	    <EnableScore>Time</EnableScore>
+	    <EnableScore>Ring</EnableScore>
+	    <EnableScore>Speed</EnableScore>
+	    <EnableScore>Enemy</EnableScore>
+	    <EnableScore>Trick</EnableScore>
+	    <EnableScore>Combo</EnableScore>
+	    <EnableScore>Crush</EnableScore>
+	    -->
+      <!-- ここまでがスコア情報 -->
+    </param>
+  </SequenceUnit>
+  <SequenceUnit>
+    <type>SetPresence</type>
+    <param>
+      <Area>SnowNight</Area>
+      <State>Act2</State>
+    </param>
+  </SequenceUnit>
+</MicroSequence>

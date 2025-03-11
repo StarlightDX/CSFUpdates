@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MicroSequence>
+  <SequenceUnit>
+    <type>SetFlag</type>
+    <param>
+	  <FlagName>iFlag_LoadingDisplayType</FlagName>
+	  <FlagValue>3</FlagValue>
+    </param>
+  </SequenceUnit>
+  <SequenceUnit>
+    <type>ChangeStage</type>
+    <param>
+      <StageType>Action</StageType>
+      <CountryName>Snow</CountryName>
+      <Switch>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="1">
+		<ArchiveName>Sub_Character01_Snow5</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubSnow_05</DirName>
+        </OverWriteTerrainInfo>
+	  </Case> 
+	  <Case flag="iFlag_DayCharacter" operation="E" value="2">
+		<ArchiveName>Sub_Character02_Snow5</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubSnow_05</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="3">
+		<ArchiveName>Sub_Character03_Snow5</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubSnow_05</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="4">
+		<ArchiveName>Sub_Character04_Snow5</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubSnow_05</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="5">
+		<ArchiveName>Sub_Character05_Snow5</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubSnow_05</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="7">
+		<ArchiveName>Sub_Character07_Snow5</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubSnow_05</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="8">
+		<ArchiveName>Sub_Character08_Snow5</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubSnow_05</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="9">
+		<ArchiveName>Sub_Character09_Snow5</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubSnow_05</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="11">
+		<ArchiveName>Sub_Character11_Snow5</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubSnow_05</DirName>
+        </OverWriteTerrainInfo>
+	  </Case> 
+	  <Case flag="iFlag_DayCharacter" operation="E" value="12">
+		<ArchiveName>Sub_Character12_Snow5</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubSnow_05</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="13">
+		<ArchiveName>Sub_Character13_Snow5</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubSnow_05</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="14">
+		<ArchiveName>Sub_Character14_Snow5</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubSnow_05</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="15">
+		<ArchiveName>Sub_Character15_Snow5</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubSnow_05</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="17">
+		<ArchiveName>Sub_Character17_Snow5</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubSnow_05</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="18">
+		<ArchiveName>Sub_Character18_Snow5</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubSnow_05</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="19">
+		<ArchiveName>Sub_Character19_Snow5</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubSnow_05</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="21">
+		<ArchiveName>Sub_Character21_Snow5</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubSnow_05</DirName>
+        </OverWriteTerrainInfo>
+	  </Case> 
+	  <Case flag="iFlag_DayCharacter" operation="E" value="22">
+		<ArchiveName>Sub_Character22_Snow5</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubSnow_05</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="23">
+		<ArchiveName>Sub_Character23_Snow5</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubSnow_05</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="24">
+		<ArchiveName>Sub_Character24_Snow5</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubSnow_05</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="25">
+		<ArchiveName>Sub_Character25_Snow5</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubSnow_05</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="27">
+		<ArchiveName>Sub_Character27_Snow5</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubSnow_05</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="28">
+		<ArchiveName>Sub_Character28_Snow5</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubSnow_05</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="29">
+		<ArchiveName>Sub_Character29_Snow5</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubSnow_05</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Default>
+		<ArchiveName>ActD_SubSnow_05</ArchiveName>
+	  </Default>
+	</Switch>
+      <SettingName>Stage</SettingName>
+      <IsEvil>false</IsEvil>
+      <OverWriteTerrainInfo>
+        <DirName>ActD_SubSnow_01</DirName>
+      </OverWriteTerrainInfo>
+	  <!--<DisableDefaultSetData>true</DisableDefaultSetData>-->
+      <!--<OverWriteSetData>
+        <Name>Base</Name>
+		<FileName>Base.set.xml</FileName>
+      </OverWriteSetData>-->
+	  <LoadingResourceID>SD</LoadingResourceID>
+	  <!-- ここからはスコア情報 -->
+	  <RankTable>
+		<S>100000</S>
+		<A>90000</A>
+		<B>75000</B>
+		<C>50000</C>
+		<D>25000</D>
+		<E>0</E>
+	  </RankTable>
+	  <BaseTime>330</BaseTime>
+	  <TimeBonusEfficient>500</TimeBonusEfficient>
+	  <!-- チェックポイント数が3より小さい場合のみ意味を成します -->
+	  <!--<CheckPointNum>3</CheckPointNum>-->
+	  <!-- 何も書かなければ全てが有効。書いたら書いたものだけが有効-->
+	  <!--
+	  <EnableScore>Time</EnableScore>
+	  <EnableScore>Ring</EnableScore>
+	  <EnableScore>Speed</EnableScore>
+	  <EnableScore>Enemy</EnableScore>
+	  <EnableScore>Trick</EnableScore>
+	  <EnableScore>Combo</EnableScore>
+	  <EnableScore>Crush</EnableScore>
+	  -->
+	  <!-- ここまでがスコア情報 -->
+    </param>
+  </SequenceUnit>
+  <SequenceUnit>
+    <type>SetPresence</type>
+    <param>
+      <Area>SnowDay</Area>
+      <State>Act2</State>
+    </param>
+  </SequenceUnit>
+</MicroSequence>

@@ -12,3 +12,13 @@ remove CSFCore/Common/+#EvilActionCommon.arl
 remove CSFCore/Common/+#SonicActionCommon.ar.00
 remove CSFCore/Common/+#EvilActionCommon.arl
 remove CSFCore/Common/+#EvilActionCommon.ar.00
+add CSFCore/1.0.2/work/SystemCommon/SR_EnterEUDayActionSub03.seq.xml
+add CSFCore/1.0.2/work/SystemCommon/SR_EnterEUDayActionSub04.seq.xml
+add CSFCore/1.0.2/work/SystemCommon/SR_EnterEUDayActionSub05.seq.xml
+add CSFCore/1.0.2/work/SystemCommon/SR_EnterEUNightActionSub02.seq.xml
+add CSFCore/1.0.2/work/SystemCommon/SR_EnterSnowDayActionSub02.seq.xml
+add CSFCore/1.0.2/work/SystemCommon/SR_EnterSnowDayActionSub03.seq.xml
+add CSFCore/1.0.2/work/SystemCommon/SR_EnterSnowDayActionSub04.seq.xml
+add CSFCore/1.0.2/work/SystemCommon/SR_EnterSnowDayActionSub05.seq.xml
+add CSFCore/1.0.2/work/SystemCommon/SR_EnterSnowNightActionSub01.seq.xml
+add CSFCore/1.0.2/work/SystemCommon/SR_EnterSnowNightActionSub02.seq.xml

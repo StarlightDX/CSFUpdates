@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MicroSequence>
+  <SequenceUnit>
+    <type>SetFlag</type>
+    <param>
+	  <FlagName>iFlag_LoadingDisplayType</FlagName>
+	  <FlagValue>3</FlagValue>
+    </param>
+  </SequenceUnit>
+  <SequenceUnit>
+    <type>ChangeStage</type>
+    <param>
+      <StageType>Action</StageType>
+      <CountryName>EU</CountryName>
+      <Switch>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="1">
+		<ArchiveName>Sub_Character01_EU3</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubEU_03</DirName>
+        </OverWriteTerrainInfo>
+	  </Case> 
+	  <Case flag="iFlag_DayCharacter" operation="E" value="2">
+		<ArchiveName>Sub_Character02_EU3</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubEU_03</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="3">
+		<ArchiveName>Sub_Character03_EU3</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubEU_03</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="4">
+		<ArchiveName>Sub_Character04_EU3</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubEU_03</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="5">
+		<ArchiveName>Sub_Character05_EU3</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubEU_03</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="7">
+		<ArchiveName>Sub_Character07_EU3</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubEU_03</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="8">
+		<ArchiveName>Sub_Character08_EU3</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubEU_03</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="9">
+		<ArchiveName>Sub_Character09_EU3</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubEU_03</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="11">
+		<ArchiveName>Sub_Character11_EU3</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubEU_03</DirName>
+        </OverWriteTerrainInfo>
+	  </Case> 
+	  <Case flag="iFlag_DayCharacter" operation="E" value="12">
+		<ArchiveName>Sub_Character12_EU3</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubEU_03</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="13">
+		<ArchiveName>Sub_Character13_EU3</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubEU_03</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="14">
+		<ArchiveName>Sub_Character14_EU3</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubEU_03</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="15">
+		<ArchiveName>Sub_Character15_EU3</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubEU_03</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="17">
+		<ArchiveName>Sub_Character17_EU3</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubEU_03</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="18">
+		<ArchiveName>Sub_Character18_EU3</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubEU_03</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="19">
+		<ArchiveName>Sub_Character19_EU3</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubEU_03</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="21">
+		<ArchiveName>Sub_Character21_EU3</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubEU_03</DirName>
+        </OverWriteTerrainInfo>
+	  </Case> 
+	  <Case flag="iFlag_DayCharacter" operation="E" value="22">
+		<ArchiveName>Sub_Character22_EU3</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubEU_03</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="23">
+		<ArchiveName>Sub_Character23_EU3</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubEU_03</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="24">
+		<ArchiveName>Sub_Character24_EU3</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubEU_03</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="25">
+		<ArchiveName>Sub_Character25_EU3</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubEU_03</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="27">
+		<ArchiveName>Sub_Character27_EU3</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubEU_03</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="28">
+		<ArchiveName>Sub_Character28_EU3</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubEU_03</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="iFlag_DayCharacter" operation="E" value="29">
+		<ArchiveName>Sub_Character29_EU3</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubEU_03</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Default>
+		<ArchiveName>ActD_SubEU_03</ArchiveName>
+	  </Default>
+	</Switch>
+      <SettingName>Stage</SettingName>
+      <IsEvil>false</IsEvil>
+      <AppendArchive>SonicActionCommon_EU</AppendArchive>
+      <Switch>
+        <Case flag="eFlag_TrialMissionType" operation="E" value="eFlag_TrialMissionType_HRD">
+		  <OverWriteSetData>
+			<Name>Medal</Name>
+			<FileName>dummy.set.xml</FileName>
+		  </OverWriteSetData>
+		  <OverWriteSetData>
+			<Name>Media</Name>
+			<FileName>dummy.set.xml</FileName>
+		  </OverWriteSetData>
+		  <LoadingTextGroupID>Euc_D4_HRD_10</LoadingTextGroupID>
+		  <!-- ここからはスコア情報 -->
+		  <RankTable>
+			<S>150000</S>
+			<A>100000</A>
+			<B>75000</B>
+			<C>50000</C>
+			<D>25000</D>
+			<E>0</E>
+		  </RankTable>
+		  <BaseTime>500</BaseTime>
+		  <!-- チェックポイント数が3より小さい場合のみ意味を成します -->
+		  <CheckPointNum>0</CheckPointNum>
+		  <!-- 何も書かなければ全てが有効。書いたら書いたものだけが有効-->
+		  <!--
+		  <EnableScore>Time</EnableScore>
+		  <EnableScore>Ring</EnableScore>
+		  <EnableScore>Speed</EnableScore>
+		  <EnableScore>Enemy</EnableScore>
+		  <EnableScore>Trick</EnableScore>
+		  <EnableScore>Combo</EnableScore>
+		  <EnableScore>Crush</EnableScore>
+		  -->
+		  <!-- ここまでがスコア情報 -->
+		</Case>
+        <Case flag="eFlag_TrialMissionType" operation="E" value="eFlag_TrialMissionType_VHD">
+		  <OverWriteSetData>
+			<Name>Medal</Name>
+			<FileName>dummy.set.xml</FileName>
+		  </OverWriteSetData>
+		  <OverWriteSetData>
+			<Name>Media</Name>
+			<FileName>dummy.set.xml</FileName>
+		  </OverWriteSetData>
+		  <LoadingTextGroupID>Euc_D4_HRD_20</LoadingTextGroupID>
+		  <!-- ここからはスコア情報 -->
+		  <RankTable>
+			<S>150000</S>
+			<A>100000</A>
+			<B>75000</B>
+			<C>50000</C>
+			<D>25000</D>
+			<E>0</E>
+		  </RankTable>
+		  <BaseTime>500</BaseTime>
+		  <!-- チェックポイント数が3より小さい場合のみ意味を成します -->
+		  <!--<CheckPointNum>3</CheckPointNum>-->
+		  <!-- 何も書かなければ全てが有効。書いたら書いたものだけが有効-->
+		  <!--
+		  <EnableScore>Time</EnableScore>
+		  <EnableScore>Ring</EnableScore>
+		  <EnableScore>Speed</EnableScore>
+		  <EnableScore>Enemy</EnableScore>
+		  <EnableScore>Trick</EnableScore>
+		  <EnableScore>Combo</EnableScore>
+		  <EnableScore>Crush</EnableScore>
+		  -->
+		  <!-- ここまでがスコア情報 -->
+		</Case>
+        <Case flag="eFlag_TrialMissionType" operation="E" value="eFlag_TrialMissionType_Default">
+		  <LoadingResourceID>ED</LoadingResourceID>
+		  <!-- ここからはスコア情報 -->
+<!--
+		  <RankTable>
+			<S>150000</S>
+			<A>100000</A>
+			<B>75000</B>
+			<C>50000</C>
+			<D>25000</D>
+			<E>0</E>
+		  </RankTable>
+		  <BaseTime>200</BaseTime>
+	      <TimeBonusEfficient>500</TimeBonusEfficient>
+-->
+		  <RankTable>
+			<S>100000</S>
+			<A>90000</A>
+			<B>75000</B>
+			<C>50000</C>
+			<D>25000</D>
+			<E>0</E>
+		  </RankTable>
+		  <BaseTime>200</BaseTime>
+	      <TimeBonusEfficient>500</TimeBonusEfficient>
+		  <!-- チェックポイント数が3より小さい場合のみ意味を成します -->
+		  <CheckPointNum>0</CheckPointNum>
+		  <!-- 何も書かなければ全てが有効。書いたら書いたものだけが有効-->
+		  <!--
+		  <EnableScore>Time</EnableScore>
+		  <EnableScore>Ring</EnableScore>
+		  <EnableScore>Speed</EnableScore>
+		  <EnableScore>Enemy</EnableScore>
+		  <EnableScore>Trick</EnableScore>
+		  <EnableScore>Combo</EnableScore>
+		  <EnableScore>Crush</EnableScore>
+		  -->
+		  <!-- ここまでがスコア情報 -->
+        </Case>
+      </Switch>
+    </param>
+  </SequenceUnit>
+  <SequenceUnit>
+    <type>SetPresence</type>
+    <param>
+      <Area>EUDay</Area>
+      <State>Act4</State>
+    </param>
+  </SequenceUnit>
+</MicroSequence>
