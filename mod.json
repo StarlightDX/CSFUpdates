@@ -21,9 +21,9 @@
           "Name": "IncludeDir4",
           "DisplayName": "Voice Language",
           "Description": [
-            "Choose the default Sonic/Werehog voice you wish to use.",
+            "Choose the default Sonic/Werehog voice you wish to use when not using a custom character.",
             "",
-            "Doesn't affect characters with custom voices."
+            "This doesn't affect characters with custom voices as they use the base game method of voice language switching."
           ],
           "Type": "Voices",
           "MinValue": null,

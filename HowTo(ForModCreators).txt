@@ -1,0 +1,131 @@
+How to create:
+
+To make a mod/modpack based on this mod first you need to,
+
+1. Pick a character slot/slots. Both day and night have 24 each, these can be seen below.
+
+Character slots & where they're located in the world map stage list:
+
+ActD will appear in the day stage list.
+ActN will appear in the night stage list.
+
+Spagonia:
+ActD_Char_Character01, ActD_Char_Character11, ActD_Char_Character21
+ActN_Char_EvilCharacter01, ActN_Char_EvilCharacter11, ActN_Char_EvilCharacter21
+
+Empire City:
+ActD_Char_Character02, ActD_Char_Character12, ActD_Char_Character22
+ActN_Char_EvilCharacter02, ActN_Char_EvilCharacter12, ActN_Char_EvilCharacter22
+
+Chun-Nan:
+ActD_Char_Character03, ActD_Char_Character13, ActD_Char_Character23
+ActN_Char_EvilCharacter03, ActN_Char_EvilCharacter13, ActN_Char_EvilCharacter23
+
+Mazuri: 
+ActD_Char_Character04, ActD_Char_Character14, ActD_Char_Character24
+ActN_Char_EvilCharacter04, ActN_Char_EvilCharacter14, ActN_Char_EvilCharacter24
+
+Shamar:
+ActD_Char_Character05, ActD_Char_Character15, ActD_Char_Character25
+ActN_Char_EvilCharacter05, ActN_Char_EvilCharacter15, ActN_Char_EvilCharacter25
+
+Holoska:
+ActD_Char_Character07, ActD_Char_Character17, ActD_Char_Character27
+ActN_Char_EvilCharacter07, ActN_Char_EvilCharacter17, ActN_Char_EvilCharacter27
+
+Apotos: 
+ActD_Char_Character08, ActD_Char_Character18, ActD_Char_Character28
+ActN_Char_EvilCharacter08, ActN_Char_EvilCharacter18, ActN_Char_EvilCharacter28
+
+Adabat: 
+ActD_Char_Character09, ActD_Char_Character19, ActD_Char_Character29
+ActN_Char_EvilCharacter09, ActN_Char_EvilCharacter19, ActN_Char_EvilCharacter29
+
+
+2. Create a folder with the name of the slot you want to use with "+" as the prefix, then transfer the contents of the "Sonic"/"EvilSonic" ar files that you modified into the slot folder you created.
+
+
+3. How to make the voice work, add "se_player_sonic_vo.csb"/"se_player_evil_vo.csb" from the "voices/English/Sonic.ar"/"voices/English/EvilSonic.ar" file from your mod into your slot folder, voices will not work otherwise. 
+Tip, do not get "se_player_sonic_vo.csb"/"se_player_evil_vo.csb" confused with "se_player_sonic.csb"/"se_player_evil.csb" the former is the voice file, the latter is the movement sound file and is always loaded anyway.
+
+
+4. Then just pack that folder with AR0pack like you would any other mod.
+
+
+
+Suggestions/Information:
+
+1. Delete hud files in your slot folder to maintain compatibility with other hud mods, hud files that should be deleted are named below:
+
+Sonic::
+
+ui_qte.yncp
+ui_playscreen.yncp
+ui_lcursor.yncp
+ui_ps1_gauge1.dds
+mat_playscreen_002.dds
+mat_playscreen_001.dds
+mat_hit_001.dds
+mat_ex_common_002.dds
+evil_lockon_cursor01.dds
+
+Werehog::
+
+ui_playscreen_ev.yncp
+mat_playscreen_003.dds
+mat_playscreen_002.dds
+mat_playscreen_001.dds
+mat_hit_001.dds
+mat_comon_num_001.dds
+mat_comon_004.dds
+mat_comon_003.dds
+mat_comon_002.dds
+
+
+2. Character slots append files into the Sonic/EvilSonic file during runtime, this means you do NOT need to have all files of Sonic/EvilSonic in your slot, just the files you modified, that means you should only include:
+
+.Model
+.dds
+.Material
+.Texset
+.Texture
+.anm.hkx
+.csb
+
+Files with the above extensions that you have modified.
+
+While it's not required, I suggest using HMM's append AR feature for your content. Example: +ActN_Char_EvilCharacter01.ar.00
+
+3. Continuing from 2, if you have made a merge mod that swaps the model of Sonic or the Werehog.
+All you need to do is rename an unpacked Sonic.ar/EvilSonic.ar to the slot of your choice and then repack.
+
+
+|OLD 4. Continuing from voices, this only supports one voice file per character, so you will need to choose between English voices or Japanese voices for each slot.
+Not for you to worry about but worth mentioning, base game Sonic & Werehog voices are now stored in "#SonicActionCommon.ar" & in "#EvilActionCommon.ar", I guess this is useful for those who wish to swap these voices to Japanese.
+If you do not have a custom voice, the mod will just use Sonic's & the Werehog's default voice from the game, as you'd expect.|
+
+4. Continuing from voices, this now supports both English and Japanese voices per character. You can navigate to "voices/English/" and/or "voices/Japanese/" then deposite your character AR file there, it should have the same name as what you picked for the standard character contents. If you do not do this, the character will just inherit Sonic's voice.
+Not for you to worry about but worth mentioning, base game Sonic & Werehog voices are now stored in "#SonicActionCommon.ar" & in "#EvilActionCommon.ar", I guess this is useful for those who wish to swap these voices to Japanese.
+If you do not have a custom voice, the mod will just use Sonic's & the Werehog's default voice from the game, as you'd expect
+
+
+5. Usage within your mod:
+
+If you are making any character mod, you can seemlessly have CSF support by simply including an archive of your character mod in your mod contents.
+For example you mod may look like this.
+
++Sonic.ar.00
++Sonic.arl 
++ActD_Char_Character13.ar.00
++ActD_Char_Character13.arl
+
+That example shows how seemless CSF support can be.
+Make sure to pick a slot wisely.
+
+
+6. GameBanana, here is some advice when it comes to the mod page:
+
+Credit (myself, Starlight) & GordonRamsey for the Character Swapping Framework if you use any files from the mod, if you however just follow this guide, credit is not needed.
+Link the Character Swapping Framework as it will be required for your mod if you do this.
+List what character slots you used so that people know what mods use the same slots as each other and thus will conflict with each other.
+Also list where in the stage list slots your characters are located, so for example if you modify "ActD_Char_Character13" then your swap will be located in the Chun-Nan daytime list, second slot down.
