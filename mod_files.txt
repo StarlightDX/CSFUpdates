@@ -81,6 +81,10 @@ add CSFCore/Common/+#Application.ar.00
 add CSFCore/Common/+#Application.arl
 add CSFCore/Common/+Application.ar.00
 add CSFCore/Common/+Application.arl
+add CSFCore/Common/+ActionCommon.ar.00
+add CSFCore/Common/+ActionCommon.arl
+add CSFCore/Common/+EvilActionCommonGeneral.ar.00
+add CSFCore/Common/+EvilActionCommonGeneral.arl
 add CSFCore/Common/Sound/vs_boss_chip_e.cpk
 add CSFCore/Common/Sound/vs_boss_chip_e.csb
 add CSFCore/Common/Sound/vs_boss_eggman_robo_e.cpk
